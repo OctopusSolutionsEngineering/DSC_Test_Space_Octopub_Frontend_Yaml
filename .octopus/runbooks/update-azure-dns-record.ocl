@@ -152,7 +152,7 @@ process {
                     }
                     else
                     {
-                    	Write-Host "No record found to update."
+                    	Write-Host "No record for $dnsRecordName found to update."
                     }
                     
                     EOT
