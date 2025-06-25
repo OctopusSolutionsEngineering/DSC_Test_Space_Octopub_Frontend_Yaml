@@ -23,5 +23,5 @@ variable "Project.Ingress.Name" {
 }
 
 variable "Project.Deployment.Name" {
-    value "octopub-frontend-deployment-demo" {}
+    value "octopub-frontend-deployment" {}
 }
