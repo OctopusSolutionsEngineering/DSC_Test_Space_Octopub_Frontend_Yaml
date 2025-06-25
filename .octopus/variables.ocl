@@ -23,5 +23,5 @@ variable "Project.Deployment.Name" {
 }
 
 variable "Project.Labels.Component" {
-    value "web-demo" {}
+    value "web" {}
 }
