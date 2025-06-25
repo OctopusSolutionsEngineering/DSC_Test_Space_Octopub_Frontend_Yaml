@@ -18,10 +18,10 @@ variable "Project.Labels.Component" {
     value "web" {}
 }
 
-variable "Project.Deployment.Name" {
-    value "octopub-frontend-deployment" {}
-}
-
 variable "Project.Ingress.Name" {
     value "octopub-ingress" {}
+}
+
+variable "Project.Deployment.Name" {
+    value "octopub-frontend-deployment-demo" {}
 }
