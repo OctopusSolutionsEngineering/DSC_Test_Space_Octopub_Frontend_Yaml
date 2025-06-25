@@ -14,14 +14,14 @@ variable "spec:rules:0:host" {
     }
 }
 
-variable "Project.Labels.Component" {
-    value "web" {}
-}
-
 variable "Project.Ingress.Name" {
     value "octopub-ingress" {}
 }
 
 variable "Project.Deployment.Name" {
     value "octopub-frontend-deployment" {}
+}
+
+variable "Project.Labels.Component" {
+    value "web-demo" {}
 }
